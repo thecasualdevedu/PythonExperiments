@@ -6,8 +6,8 @@ os.system("cls")
 def main () :
 
     # setups the values
-    rawValue = input("Input Value: ")
-    values = list(map(int, rawValue.split( )))
+    raw_value = input("Input Value: ")
+    values = list(map(int, raw_value.split( )))
 
     big_num = 0
 
